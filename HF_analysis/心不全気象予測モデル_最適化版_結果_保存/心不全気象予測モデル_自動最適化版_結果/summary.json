@@ -1,0 +1,9 @@
+{
+  "overall_auc": 0.880656137321619,
+  "overall_pr_auc": 0.7930839639027708,
+  "mean_auc": 0.8288156958376256,
+  "std_auc": 0.1396988805703244,
+  "feature_count": 127,
+  "fold_count": 16,
+  "total_time_minutes": 65.97171283165613
+}

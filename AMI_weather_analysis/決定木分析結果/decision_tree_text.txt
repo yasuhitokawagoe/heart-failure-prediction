@@ -1,0 +1,79 @@
+|--- is_holiday <= 0.37
+|   |--- avg_temp_monthly_change_rate <= -0.20
+|   |   |--- pressure_local <= 0.85
+|   |   |   |--- sunshine_hours <= 0.77
+|   |   |   |   |--- avg_wind <= -1.11
+|   |   |   |   |   |--- class: 1
+|   |   |   |   |--- avg_wind >  -1.11
+|   |   |   |   |   |--- class: 0
+|   |   |   |--- sunshine_hours >  0.77
+|   |   |   |   |--- avg_temp_trend_strength <= -0.44
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- avg_temp_trend_strength >  -0.44
+|   |   |   |   |   |--- class: 1
+|   |   |--- pressure_local >  0.85
+|   |   |   |--- avg_humidity_std_14d <= 0.84
+|   |   |   |   |--- avg_wind <= -0.68
+|   |   |   |   |   |--- class: 1
+|   |   |   |   |--- avg_wind >  -0.68
+|   |   |   |   |   |--- class: 1
+|   |   |   |--- avg_humidity_std_14d >  0.84
+|   |   |   |   |--- avg_humidity_monthly_change_rate <= -0.85
+|   |   |   |   |   |--- class: 1
+|   |   |   |   |--- avg_humidity_monthly_change_rate >  -0.85
+|   |   |   |   |   |--- class: 0
+|   |--- avg_temp_monthly_change_rate >  -0.20
+|   |   |--- dayofweek_cos <= 1.15
+|   |   |   |--- avg_humidity_anomaly_score <= -1.01
+|   |   |   |   |--- temp_change_3d <= 0.31
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- temp_change_3d >  0.31
+|   |   |   |   |   |--- class: 1
+|   |   |   |--- avg_humidity_anomaly_score >  -1.01
+|   |   |   |   |--- pressure_change_temp_change <= 0.63
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- pressure_change_temp_change >  0.63
+|   |   |   |   |   |--- class: 0
+|   |   |--- dayofweek_cos >  1.15
+|   |   |   |--- avg_humidity_monthly_change_rate <= 1.43
+|   |   |   |   |--- temp_seasonal_deviation_14d <= 0.42
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- temp_seasonal_deviation_14d >  0.42
+|   |   |   |   |   |--- class: 1
+|   |   |   |--- avg_humidity_monthly_change_rate >  1.43
+|   |   |   |   |--- class: 0
+|--- is_holiday >  0.37
+|   |--- dayofweek_cos <= 0.28
+|   |   |--- avg_wind <= -0.57
+|   |   |   |--- avg_humidity_monthly_change_rate <= -0.72
+|   |   |   |   |--- class: 0
+|   |   |   |--- avg_humidity_monthly_change_rate >  -0.72
+|   |   |   |   |--- temp_seasonal_deviation_7d <= 0.17
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- temp_seasonal_deviation_7d >  0.17
+|   |   |   |   |   |--- class: 0
+|   |   |--- avg_wind >  -0.57
+|   |   |   |--- avg_temp_anomaly_score <= -1.10
+|   |   |   |   |--- avg_temp_anomaly_score <= -1.47
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- avg_temp_anomaly_score >  -1.47
+|   |   |   |   |   |--- class: 0
+|   |   |   |--- avg_temp_anomaly_score >  -1.10
+|   |   |   |   |--- vapor_pressure_std_7d <= -0.81
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- vapor_pressure_std_7d >  -0.81
+|   |   |   |   |   |--- class: 0
+|   |--- dayofweek_cos >  0.28
+|   |   |--- avg_temp_acceleration_2nd <= -1.54
+|   |   |   |--- class: 0
+|   |   |--- avg_temp_acceleration_2nd >  -1.54
+|   |   |   |--- avg_wind <= -0.46
+|   |   |   |   |--- avg_humidity_std_3d <= -1.01
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- avg_humidity_std_3d >  -1.01
+|   |   |   |   |   |--- class: 0
+|   |   |   |--- avg_wind >  -0.46
+|   |   |   |   |--- avg_humidity_weekly_change_rate <= 0.22
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- avg_humidity_weekly_change_rate >  0.22
+|   |   |   |   |   |--- class: 0

@@ -1,0 +1,40 @@
+{
+  "best_fold": 10,
+  "best_auc": 1.0,
+  "best_pr_auc": 1.0,
+  "best_params": {
+    "n_estimators": 670,
+    "learning_rate": 0.2627235711544381,
+    "max_depth": 11,
+    "num_leaves": 64,
+    "subsample": 0.9570235993959911,
+    "colsample_bytree": 0.8157368967662603,
+    "reg_alpha": 8.074401551640625,
+    "reg_lambda": 8.960912999234932,
+    "xgb_n_estimators": 386,
+    "xgb_learning_rate": 0.04191505811302626,
+    "xgb_max_depth": 5,
+    "xgb_subsample": 0.7708431154505025,
+    "xgb_colsample_bytree": 0.9272059063689972,
+    "xgb_reg_alpha": 8.607305832563434,
+    "xgb_reg_lambda": 0.06952130531190703,
+    "cb_iterations": 560,
+    "cb_learning_rate": 0.1310491909131459,
+    "cb_depth": 5,
+    "cb_l2_leaf_reg": 2.0787883060031453
+  },
+  "weights": [
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333
+  ],
+  "f1_optimized": 1.0,
+  "precision_f1": 1.0,
+  "recall_f1": 1.0,
+  "threshold_f1": 0.6599999999999997,
+  "precision_pr": 1.0,
+  "recall_pr": 1.0,
+  "threshold_pr": 0.6599999999999997,
+  "saved_date": "2025-08-04T21:17:19.370505",
+  "model_version": "50Fold_optimized_v1.0"
+}

@@ -1,0 +1,8 @@
+{
+    "roc_auc": NaN,
+    "pr_auc": NaN,
+    "precision": NaN,
+    "recall": NaN,
+    "f1_score": NaN,
+    "specificity": NaN
+}

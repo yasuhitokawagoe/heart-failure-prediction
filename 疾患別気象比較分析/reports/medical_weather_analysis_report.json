@@ -1,0 +1,199 @@
+{
+  "medical_weather_definitions": {
+    "cardiovascular_stress": {
+      "definition": "寒冷、高湿度、気圧変動による心血管系への負荷",
+      "clinical_mechanism": "血管収縮、血圧上昇、心拍数増加",
+      "target_diseases": [
+        "HF",
+        "AMI"
+      ],
+      "thresholds": {
+        "mild": "0.5-1.0 (注意喚起レベル)",
+        "moderate": "1.0-2.0 (医療機関受診推奨)",
+        "severe": ">2.0 (緊急医療対応)"
+      }
+    },
+    "thermoregulatory_stress": {
+      "definition": "高温・高湿度による体温調節機能への負荷",
+      "clinical_mechanism": "脱水、発汗困難、体温上昇",
+      "target_diseases": [
+        "HF",
+        "PE"
+      ],
+      "thresholds": {
+        "mild": "0.5-1.0 (水分補給推奨)",
+        "moderate": "1.0-2.0 (涼しい場所での休息)",
+        "severe": ">2.0 (医療機関受診)"
+      }
+    },
+    "autonomic_stress": {
+      "definition": "気圧変動・温度変動による自律神経系への負荷",
+      "clinical_mechanism": "交感神経亢進、不整脈誘発",
+      "target_diseases": [
+        "VT_VF",
+        "AMI"
+      ],
+      "thresholds": {
+        "mild": "0.5-1.0 (安静推奨)",
+        "moderate": "1.0-1.5 (医療機関受診推奨)",
+        "severe": ">1.5 (緊急医療対応)"
+      }
+    }
+  },
+  "clinical_implications": {
+    "preventive_medicine": [
+      "気象予報に基づく疾患別リスク予測",
+      "患者への気象注意喚起システム",
+      "医療機関の受診調整システム"
+    ],
+    "emergency_medicine": [
+      "気象条件に応じた救急医療体制調整",
+      "重症患者の早期発見システム",
+      "医療資源の効率的配分"
+    ],
+    "patient_education": [
+      "疾患別気象注意点の啓蒙",
+      "自己管理のための気象情報提供",
+      "緊急時の対応指針提供"
+    ]
+  },
+  "clinical_effects": {
+    "Tokyo_Total": {
+      "cardiovascular_composite_stress": {
+        "high_stress_effect": 1.047295013065804,
+        "low_stress_effect": 0.9059855000190753,
+        "stress_range": 2.283000000000001
+      },
+      "thermoregulatory_stress": {
+        "high_stress_effect": 0.9881979966992733,
+        "low_stress_effect": NaN,
+        "stress_range": 1.3499999999999999
+      },
+      "autonomic_stress": {
+        "high_stress_effect": 1.0102373060338505,
+        "low_stress_effect": 0.9677627526326597,
+        "stress_range": 2.332228602253297
+      }
+    },
+    "VT_VF": {
+      "vtvf_humidity_stress": {
+        "high_stress_effect": 1.1078071601301502,
+        "low_stress_effect": NaN,
+        "stress_range": 1.0
+      },
+      "vtvf_temp_volatility": {
+        "high_stress_effect": 0.9315163015352768,
+        "low_stress_effect": 1.039158185268242,
+        "stress_range": 3.5405978779484695
+      },
+      "autonomic_stress": {
+        "high_stress_effect": 0.9280550774526679,
+        "low_stress_effect": 1.0203098106712565,
+        "stress_range": 1.8191451404108328
+      }
+    },
+    "HF": {
+      "hf_cold_stress": {
+        "high_stress_effect": 1.313705344374562,
+        "low_stress_effect": NaN,
+        "stress_range": 12.0
+      },
+      "hf_humidity_stress": {
+        "high_stress_effect": 0.9972464517237054,
+        "low_stress_effect": NaN,
+        "stress_range": 1.2
+      },
+      "cardiovascular_composite_stress": {
+        "high_stress_effect": 1.2956729778585656,
+        "low_stress_effect": 0.9141314152642344,
+        "stress_range": 2.105
+      }
+    },
+    "AMI": {
+      "ami_cold_stress": {
+        "high_stress_effect": 1.0761314331642773,
+        "low_stress_effect": NaN,
+        "stress_range": 12.0
+      },
+      "ami_pressure_stress": {
+        "high_stress_effect": 0.995746742117762,
+        "low_stress_effect": NaN,
+        "stress_range": 2.76
+      },
+      "cardiovascular_composite_stress": {
+        "high_stress_effect": 1.0603391289189406,
+        "low_stress_effect": 0.938270014418305,
+        "stress_range": 2.105
+      }
+    },
+    "PE": {
+      "cardiovascular_composite_stress": {
+        "high_stress_effect": 1.11658089454908,
+        "low_stress_effect": 0.8453806869228391,
+        "stress_range": 2.105
+      },
+      "thermoregulatory_stress": {
+        "high_stress_effect": 1.0236564907676147,
+        "low_stress_effect": NaN,
+        "stress_range": 1.3499999999999999
+      },
+      "autonomic_stress": {
+        "high_stress_effect": 0.9541284403669725,
+        "low_stress_effect": 0.962986396709902,
+        "stress_range": 1.8191451404108328
+      }
+    }
+  },
+  "severity_distribution": {
+    "Tokyo_Total": {
+      "mild_stress_days": 1035,
+      "moderate_stress_days": 887,
+      "severe_stress_days": 55,
+      "total_days": 3562,
+      "mild_stress_incidence": 12.4,
+      "moderate_stress_incidence": 11.967305524239007,
+      "severe_stress_incidence": 12.127272727272727,
+      "normal_incidence": 11.784680056048575
+    },
+    "VT_VF": {
+      "mild_stress_days": 904,
+      "moderate_stress_days": 452,
+      "severe_stress_days": 6,
+      "total_days": 3562,
+      "mild_stress_incidence": 2.066371681415929,
+      "moderate_stress_incidence": 1.9623893805309736,
+      "severe_stress_incidence": 3.1666666666666665,
+      "normal_incidence": 2.0333869670152858
+    },
+    "HF": {
+      "mild_stress_days": 904,
+      "moderate_stress_days": 452,
+      "severe_stress_days": 6,
+      "total_days": 3562,
+      "mild_stress_incidence": 37.674778761061944,
+      "moderate_stress_incidence": 37.099557522123895,
+      "severe_stress_incidence": 36.833333333333336,
+      "normal_incidence": 32.47264682220435
+    },
+    "AMI": {
+      "mild_stress_days": 904,
+      "moderate_stress_days": 452,
+      "severe_stress_days": 6,
+      "total_days": 3562,
+      "mild_stress_incidence": 12.420353982300885,
+      "moderate_stress_incidence": 12.037610619469026,
+      "severe_stress_incidence": 13.333333333333334,
+      "normal_incidence": 11.81858407079646
+    },
+    "PE": {
+      "mild_stress_days": 904,
+      "moderate_stress_days": 452,
+      "severe_stress_days": 6,
+      "total_days": 3562,
+      "mild_stress_incidence": 2.3053097345132745,
+      "moderate_stress_incidence": 2.311946902654867,
+      "severe_stress_incidence": 2.5,
+      "normal_incidence": 2.170152855993564
+    }
+  }
+}

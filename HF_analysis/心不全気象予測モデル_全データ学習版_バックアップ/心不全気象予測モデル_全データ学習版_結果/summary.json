@@ -1,0 +1,10 @@
+{
+  "hold_out_auc": 0.9004323063199066,
+  "hold_out_pr_auc": 0.8208125092667653,
+  "hold_out_f1": 0.7336683417085426,
+  "feature_count": 127,
+  "total_data_size": 3562,
+  "train_data_size": 3197,
+  "test_data_size": 365,
+  "total_time_minutes": 5.444766700267792
+}

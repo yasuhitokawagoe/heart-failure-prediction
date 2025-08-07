@@ -1,0 +1,50 @@
+VT・VF気象予測モデル保存サマリー
+================================
+
+モデルファイル
+--------------
+train_model_vtvf_weather_only.py
+- 気象情報のみを使用したVT・VF予測モデル
+- ファイルサイズ: 69KB
+- 特徴: 入院データを完全に除外し、純粋に気象データのみで予測
+
+モデル性能
+----------
+- ROC-AUC: 0.8704 ± 0.0830
+- 気象情報のみで高い予測精度を達成
+- データリークなし（入院データを完全除外）
+
+保存された結果ファイル
+---------------------
+results/
+├── detailed_results.json          # 詳細な結果データ
+├── feature_importance.csv        # 特徴量重要度
+├── feature_importance.png        # 特徴量重要度グラフ
+├── modelwise_metrics.json        # モデル別メトリクス
+├── modelwise_metrics.md          # モデル別メトリクス（Markdown）
+├── performance_curves_fold_1.png # 性能曲線（フォールド1）
+├── performance_curves_fold_2.png # 性能曲線（フォールド2）
+└── performance_curves_fold_3.png # 性能曲線（フォールド3）
+
+データファイル
+-------------
+- vtvf_weather_merged.csv: VT・VFデータと気象データの統合ファイル
+- 東京vtvf.csv: 元のVT・VFデータ
+- weather_jroad_encoded_2012_2021.csv: 気象データ
+
+分析結果
+--------
+1. 気象情報のみで高い予測精度（AUC 0.87）
+2. 湿度が最も重要な特徴量
+3. 季節性パターン（冬場に高い発生率）
+4. 曜日パターン（月曜日に高い発生率）
+
+医療的意義
+----------
+- 気象予報に基づくVT・VFリスク予測が可能
+- 予防医療への応用可能性
+- 救急体制の最適化に貢献
+
+---
+保存日: 2025年7月29日
+モデルタイプ: 気象情報のみのVT・VF予測モデル 

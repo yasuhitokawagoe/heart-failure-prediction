@@ -1,0 +1,92 @@
+[
+    {
+        "fold": 1,
+        "model": "lgb",
+        "roc_auc": 0.8222222222222223,
+        "pr_auc": 0.7392351783063857,
+        "precision": 0.75,
+        "recall": 0.4,
+        "f1_score": 0.5217391304347827,
+        "specificity": 0.8666666666666667
+    },
+    {
+        "fold": 1,
+        "model": "xgb",
+        "roc_auc": 0.7688888888888888,
+        "pr_auc": 0.6930900379813423,
+        "precision": 0.625,
+        "recall": 0.3333333333333333,
+        "f1_score": 0.43478260869565216,
+        "specificity": 0.8
+    },
+    {
+        "fold": 1,
+        "model": "cat",
+        "roc_auc": 0.7644444444444445,
+        "pr_auc": 0.6740562215562215,
+        "precision": 0.5,
+        "recall": 0.2,
+        "f1_score": 0.28571428571428575,
+        "specificity": 0.8
+    },
+    {
+        "fold": 2,
+        "model": "lgb",
+        "roc_auc": 0.8238636363636364,
+        "pr_auc": 0.7482323232323232,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "specificity": 1.0
+    },
+    {
+        "fold": 2,
+        "model": "xgb",
+        "roc_auc": 0.6420454545454545,
+        "pr_auc": 0.4021267657780816,
+        "precision": 0.3333333333333333,
+        "recall": 0.25,
+        "f1_score": 0.28571428571428575,
+        "specificity": 0.8181818181818182
+    },
+    {
+        "fold": 2,
+        "model": "cat",
+        "roc_auc": 0.5625,
+        "pr_auc": 0.30588226452197037,
+        "precision": 0.14285714285714285,
+        "recall": 0.125,
+        "f1_score": 0.13333333333333333,
+        "specificity": 0.7272727272727273
+    },
+    {
+        "fold": 3,
+        "model": "lgb",
+        "roc_auc": 0.5688888888888889,
+        "pr_auc": 0.5245183913891007,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "specificity": 1.0
+    },
+    {
+        "fold": 3,
+        "model": "xgb",
+        "roc_auc": 0.3066666666666667,
+        "pr_auc": 0.3964158542372106,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "specificity": 0.6
+    },
+    {
+        "fold": 3,
+        "model": "cat",
+        "roc_auc": 0.4177777777777778,
+        "pr_auc": 0.5259290047832247,
+        "precision": 0.3333333333333333,
+        "recall": 0.13333333333333333,
+        "f1_score": 0.19047619047619044,
+        "specificity": 0.7333333333333333
+    }
+]

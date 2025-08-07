@@ -1,0 +1,46 @@
+{
+  "hold_out_performance": {
+    "auc": 0.9004323063199066,
+    "pr_auc": 0.8208125092667653,
+    "precision_std": 0.9012345679012346,
+    "recall_std": 0.6186440677966102,
+    "f1_std": 0.7336683417085426,
+    "f1_optimized": 0.7610619469026549,
+    "precision_f1": 0.7962962962962963,
+    "recall_f1": 0.7288135593220338,
+    "threshold_f1": 0.3899999999999999,
+    "precision_pr": 0.7962962962962963,
+    "recall_pr": 0.7288135593220338,
+    "threshold_pr": 0.3899999999999999
+  },
+  "weights": [
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333
+  ],
+  "best_params": {
+    "n_estimators": 639,
+    "learning_rate": 0.09628807573391854,
+    "max_depth": 11,
+    "num_leaves": 108,
+    "subsample": 0.7537310472017981,
+    "colsample_bytree": 0.8274425469050811,
+    "reg_alpha": 8.367925325582533,
+    "reg_lambda": 9.193541994053062,
+    "xgb_n_estimators": 667,
+    "xgb_learning_rate": 0.02883719662312517,
+    "xgb_max_depth": 3,
+    "xgb_subsample": 0.6223090774883958,
+    "xgb_colsample_bytree": 0.8339060801061307,
+    "xgb_reg_alpha": 9.256100844233837,
+    "xgb_reg_lambda": 2.5348398860482506,
+    "cb_iterations": 270,
+    "cb_learning_rate": 0.024905665890312793,
+    "cb_depth": 5,
+    "cb_l2_leaf_reg": 1.9212296693247017
+  },
+  "feature_count": 127,
+  "train_data_size": 3197,
+  "test_data_size": 365,
+  "evaluation_date": "2025-08-04T21:47:28.113341"
+}

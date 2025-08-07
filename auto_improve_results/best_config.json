@@ -1,0 +1,7 @@
+{
+  "strategy": "feature_selection",
+  "method": {
+    "method": "top_n",
+    "n": 16
+  }
+}

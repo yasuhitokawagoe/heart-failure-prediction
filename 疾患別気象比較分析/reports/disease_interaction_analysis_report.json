@@ -1,0 +1,392 @@
+{
+  "summary": {
+    "total_diseases": 5,
+    "strong_correlations": 20,
+    "causal_relationships": 0,
+    "analysis_period": "5 days"
+  },
+  "correlation_analysis": {
+    "correlation_matrix": {
+      "VT_VF_incidence": {
+        "VT_VF_incidence": 1.0,
+        "HF_incidence": 0.2893338597519201,
+        "AMI_incidence": 0.273143351124396,
+        "PE_incidence": 0.20255929305736461,
+        "AF_incidence": 0.20782994370845487
+      },
+      "HF_incidence": {
+        "VT_VF_incidence": 0.2893338597519201,
+        "HF_incidence": 1.0,
+        "AMI_incidence": 0.5837162749234044,
+        "PE_incidence": 0.45862563191013317,
+        "AF_incidence": 0.522932737969597
+      },
+      "AMI_incidence": {
+        "VT_VF_incidence": 0.273143351124396,
+        "HF_incidence": 0.5837162749234044,
+        "AMI_incidence": 1.0,
+        "PE_incidence": 0.3463892878528137,
+        "AF_incidence": 0.38860343883875403
+      },
+      "PE_incidence": {
+        "VT_VF_incidence": 0.20255929305736461,
+        "HF_incidence": 0.45862563191013317,
+        "AMI_incidence": 0.3463892878528137,
+        "PE_incidence": 1.0,
+        "AF_incidence": 0.32267201502534215
+      },
+      "AF_incidence": {
+        "VT_VF_incidence": 0.20782994370845487,
+        "HF_incidence": 0.522932737969597,
+        "AMI_incidence": 0.38860343883875403,
+        "PE_incidence": 0.32267201502534215,
+        "AF_incidence": 1.0
+      }
+    },
+    "p_values": {
+      "VT_VF_incidence": {
+        "VT_VF_incidence": 0.0,
+        "HF_incidence": 1.1985665250025657e-69,
+        "AMI_incidence": 5.606682119459009e-62,
+        "PE_incidence": 2.6887485055174122e-34,
+        "AF_incidence": 4.708883087376132e-36
+      },
+      "HF_incidence": {
+        "VT_VF_incidence": 1.1985665250025657e-69,
+        "HF_incidence": 0.0,
+        "AMI_incidence": 0.0,
+        "PE_incidence": 8.131947184290772e-185,
+        "AF_incidence": 2.8236841523896927e-249
+      },
+      "AMI_incidence": {
+        "VT_VF_incidence": 5.606682119459009e-62,
+        "HF_incidence": 0.0,
+        "AMI_incidence": 0.0,
+        "PE_incidence": 5.992256333245025e-101,
+        "AF_incidence": 9.553911351018191e-129
+      },
+      "PE_incidence": {
+        "VT_VF_incidence": 2.6887485055174122e-34,
+        "HF_incidence": 8.131947184290772e-185,
+        "AMI_incidence": 5.992256333245025e-101,
+        "PE_incidence": 0.0,
+        "AF_incidence": 4.202316854803273e-87
+      },
+      "AF_incidence": {
+        "VT_VF_incidence": 4.708883087376132e-36,
+        "HF_incidence": 2.8236841523896927e-249,
+        "AMI_incidence": 9.553911351018191e-129,
+        "PE_incidence": 4.202316854803273e-87,
+        "AF_incidence": 0.0
+      }
+    },
+    "strong_correlations": [
+      {
+        "disease1": "VT_VF_incidence",
+        "disease2": "HF_incidence",
+        "correlation": 0.2893338597519201,
+        "p_value": 1.1985665250025657e-69
+      },
+      {
+        "disease1": "VT_VF_incidence",
+        "disease2": "AMI_incidence",
+        "correlation": 0.273143351124396,
+        "p_value": 5.606682119459009e-62
+      },
+      {
+        "disease1": "VT_VF_incidence",
+        "disease2": "PE_incidence",
+        "correlation": 0.20255929305736461,
+        "p_value": 2.6887485055174122e-34
+      },
+      {
+        "disease1": "VT_VF_incidence",
+        "disease2": "AF_incidence",
+        "correlation": 0.20782994370845487,
+        "p_value": 4.708883087376132e-36
+      },
+      {
+        "disease1": "HF_incidence",
+        "disease2": "VT_VF_incidence",
+        "correlation": 0.2893338597519201,
+        "p_value": 1.1985665250025657e-69
+      },
+      {
+        "disease1": "HF_incidence",
+        "disease2": "AMI_incidence",
+        "correlation": 0.5837162749234044,
+        "p_value": 0.0
+      },
+      {
+        "disease1": "HF_incidence",
+        "disease2": "PE_incidence",
+        "correlation": 0.45862563191013317,
+        "p_value": 8.131947184290772e-185
+      },
+      {
+        "disease1": "HF_incidence",
+        "disease2": "AF_incidence",
+        "correlation": 0.522932737969597,
+        "p_value": 2.8236841523896927e-249
+      },
+      {
+        "disease1": "AMI_incidence",
+        "disease2": "VT_VF_incidence",
+        "correlation": 0.273143351124396,
+        "p_value": 5.606682119459009e-62
+      },
+      {
+        "disease1": "AMI_incidence",
+        "disease2": "HF_incidence",
+        "correlation": 0.5837162749234044,
+        "p_value": 0.0
+      },
+      {
+        "disease1": "AMI_incidence",
+        "disease2": "PE_incidence",
+        "correlation": 0.3463892878528137,
+        "p_value": 5.992256333245025e-101
+      },
+      {
+        "disease1": "AMI_incidence",
+        "disease2": "AF_incidence",
+        "correlation": 0.38860343883875403,
+        "p_value": 9.553911351018191e-129
+      },
+      {
+        "disease1": "PE_incidence",
+        "disease2": "VT_VF_incidence",
+        "correlation": 0.20255929305736461,
+        "p_value": 2.6887485055174122e-34
+      },
+      {
+        "disease1": "PE_incidence",
+        "disease2": "HF_incidence",
+        "correlation": 0.45862563191013317,
+        "p_value": 8.131947184290772e-185
+      },
+      {
+        "disease1": "PE_incidence",
+        "disease2": "AMI_incidence",
+        "correlation": 0.3463892878528137,
+        "p_value": 5.992256333245025e-101
+      },
+      {
+        "disease1": "PE_incidence",
+        "disease2": "AF_incidence",
+        "correlation": 0.32267201502534215,
+        "p_value": 4.202316854803273e-87
+      },
+      {
+        "disease1": "AF_incidence",
+        "disease2": "VT_VF_incidence",
+        "correlation": 0.20782994370845487,
+        "p_value": 4.708883087376132e-36
+      },
+      {
+        "disease1": "AF_incidence",
+        "disease2": "HF_incidence",
+        "correlation": 0.522932737969597,
+        "p_value": 2.8236841523896927e-249
+      },
+      {
+        "disease1": "AF_incidence",
+        "disease2": "AMI_incidence",
+        "correlation": 0.38860343883875403,
+        "p_value": 9.553911351018191e-129
+      },
+      {
+        "disease1": "AF_incidence",
+        "disease2": "PE_incidence",
+        "correlation": 0.32267201502534215,
+        "p_value": 4.202316854803273e-87
+      }
+    ]
+  },
+  "temporal_analysis": {
+    "temporal_patterns": {
+      "VT_VF": {
+        "HF": {
+          "mean_days_diff": 0.0049475162131443476,
+          "median_days_diff": 0.0,
+          "positive_lag_ratio": 0.46711684606984466,
+          "concurrent_events": 3001,
+          "total_related_events": 44871
+        },
+        "AMI": {
+          "mean_days_diff": 0.004417473562090045,
+          "median_days_diff": 0.0,
+          "positive_lag_ratio": 0.46706974253714695,
+          "concurrent_events": 2998,
+          "total_related_events": 44822
+        },
+        "PE": {
+          "mean_days_diff": 0.0009422279653260109,
+          "median_days_diff": 0.0,
+          "positive_lag_ratio": 0.4660797932482636,
+          "concurrent_events": 2505,
+          "total_related_events": 37146
+        },
+        "AF": {
+          "mean_days_diff": 0.000534448704542814,
+          "median_days_diff": 0.0,
+          "positive_lag_ratio": 0.4665504821656791,
+          "concurrent_events": 2889,
+          "total_related_events": 43035
+        }
+      },
+      "HF": {
+        "VT_VF": {
+          "mean_days_diff": -0.0049475162131443476,
+          "median_days_diff": 0.0,
+          "positive_lag_ratio": 0.46600254061643376,
+          "concurrent_events": 3001,
+          "total_related_events": 44871
+        },
+        "AMI": {
+          "mean_days_diff": 1.892255000283838e-05,
+          "median_days_diff": 0.0,
+          "positive_lag_ratio": 0.466573315419986,
+          "concurrent_events": 3535,
+          "total_related_events": 52847
+        },
+        "PE": {
+          "mean_days_diff": -0.00373056514586278,
+          "median_days_diff": 0.0,
+          "positive_lag_ratio": 0.46608893111198646,
+          "concurrent_events": 2887,
+          "total_related_events": 43157
+        },
+        "AF": {
+          "mean_days_diff": -0.0045690098500731835,
+          "median_days_diff": 0.0,
+          "positive_lag_ratio": 0.4661181217611456,
+          "concurrent_events": 3382,
+          "total_related_events": 50558
+        }
+      },
+      "AMI": {
+        "VT_VF": {
+          "mean_days_diff": -0.004417473562090045,
+          "median_days_diff": 0.0,
+          "positive_lag_ratio": 0.46604346080049974,
+          "concurrent_events": 2998,
+          "total_related_events": 44822
+        },
+        "HF": {
+          "mean_days_diff": -1.892255000283838e-05,
+          "median_days_diff": 0.0,
+          "positive_lag_ratio": 0.4665354703199803,
+          "concurrent_events": 3535,
+          "total_related_events": 52847
+        },
+        "PE": {
+          "mean_days_diff": -0.003594953149642824,
+          "median_days_diff": 0.0,
+          "positive_lag_ratio": 0.4660682809165971,
+          "concurrent_events": 2886,
+          "total_related_events": 43116
+        },
+        "AF": {
+          "mean_days_diff": -0.0039596903522144565,
+          "median_days_diff": 0.0,
+          "positive_lag_ratio": 0.46613474826268586,
+          "concurrent_events": 3378,
+          "total_related_events": 50509
+        }
+      },
+      "PE": {
+        "VT_VF": {
+          "mean_days_diff": -0.0009422279653260109,
+          "median_days_diff": 0.0,
+          "positive_lag_ratio": 0.4664836052334033,
+          "concurrent_events": 2505,
+          "total_related_events": 37146
+        },
+        "HF": {
+          "mean_days_diff": 0.00373056514586278,
+          "median_days_diff": 0.0,
+          "positive_lag_ratio": 0.4670157795954306,
+          "concurrent_events": 2887,
+          "total_related_events": 43157
+        },
+        "AMI": {
+          "mean_days_diff": 0.003594953149642824,
+          "median_days_diff": 0.0,
+          "positive_lag_ratio": 0.4669960107616662,
+          "concurrent_events": 2886,
+          "total_related_events": 43116
+        },
+        "AF": {
+          "mean_days_diff": -0.003994609683318895,
+          "median_days_diff": 0.0,
+          "positive_lag_ratio": 0.466190201174319,
+          "concurrent_events": 2790,
+          "total_related_events": 41556
+        }
+      },
+      "AF": {
+        "VT_VF": {
+          "mean_days_diff": -0.000534448704542814,
+          "median_days_diff": 0.0,
+          "positive_lag_ratio": 0.466318113163704,
+          "concurrent_events": 2889,
+          "total_related_events": 43035
+        },
+        "HF": {
+          "mean_days_diff": 0.0045690098500731835,
+          "median_days_diff": 0.0,
+          "positive_lag_ratio": 0.46698840935163577,
+          "concurrent_events": 3382,
+          "total_related_events": 50558
+        },
+        "AMI": {
+          "mean_days_diff": 0.0039596903522144565,
+          "median_days_diff": 0.0,
+          "positive_lag_ratio": 0.466986081688412,
+          "concurrent_events": 3378,
+          "total_related_events": 50509
+        },
+        "PE": {
+          "mean_days_diff": 0.003994609683318895,
+          "median_days_diff": 0.0,
+          "positive_lag_ratio": 0.46667147944941767,
+          "concurrent_events": 2790,
+          "total_related_events": 41556
+        }
+      }
+    },
+    "progression_patterns": [
+      "VT_VF → HF (不整脈から心不全への進行)",
+      "HF → AMI (心不全から心筋梗塞への進行)",
+      "VT_VF → AMI (不整脈から心筋梗塞への進行)",
+      "PE → HF (肺塞栓から心不全への進行)"
+    ]
+  },
+  "causal_analysis": {
+    "causal_relationships": [],
+    "interpretation": {
+      "VT_VF_to_HF": "不整脈による心機能低下が心不全を誘発",
+      "HF_to_AMI": "心不全による心筋への負荷が心筋梗塞を誘発",
+      "VT_VF_to_AMI": "不整脈による心筋虚血が心筋梗塞を誘発",
+      "PE_to_HF": "肺塞栓による右心負荷が心不全を誘発"
+    }
+  },
+  "clinical_implications": {
+    "preventive_strategies": [
+      "不整脈の早期発見・治療による心不全予防",
+      "心不全患者の心筋梗塞リスク管理",
+      "肺塞栓患者の心機能モニタリング"
+    ],
+    "treatment_priorities": [
+      "VT/VFの急性期治療を最優先",
+      "心不全の安定化後に心筋梗塞リスク評価",
+      "肺塞栓治療と並行した心機能評価"
+    ],
+    "monitoring_recommendations": [
+      "不整脈患者の心機能定期評価",
+      "心不全患者の心筋梗塞リスク定期評価",
+      "肺塞栓患者の心機能継続モニタリング"
+    ]
+  }
+}
