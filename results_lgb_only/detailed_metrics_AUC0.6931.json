@@ -1,8 +1,0 @@
-{
-    "roc_auc": 0.6931179286347284,
-    "pr_auc": 0.4766776222774013,
-    "precision": 0.0,
-    "recall": 0.0,
-    "f1_score": 0.0,
-    "specificity": 1.0
-}

@@ -109,20 +109,64 @@ dmypy.json
 .DS_Store
 Thumbs.db
 
-# Model files (large files)
+# Model files (large files) - 絶対に除外
 *.pkl
 *.joblib
 *.h5
 *.hdf5
+*.model
+*.bin
 
-# Data files
+# Data files - 絶対に除外
 *.csv
 *.xlsx
 *.xls
+*.dta
+*.json
+*.npy
+*.npz
 
 # Logs
 *.log
 
 # Temporary files
 *.tmp
-*.temp 
+*.temp
+
+# 特定のディレクトリを除外
+HF_analysis/*/
+!HF_analysis/*.py
+!HF_analysis/README.md
+
+# 結果ディレクトリを除外
+results/
+results_*/
+*/results/
+*/results_*/
+
+# バックアップディレクトリを除外
+*_backup/
+*_バックアップ/
+*_backup_*/
+
+# 保存モデルディレクトリを除外
+*_保存モデル/
+*_保存モデル_*/
+
+# 画像ファイルを除外
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+
+# PDFファイルを除外
+*.pdf
+
+# 特定のファイルを除外
+catboost_info/
+*.tsv
+*.txt
+!README.md
+!requirements.txt
+!.gitignore 
